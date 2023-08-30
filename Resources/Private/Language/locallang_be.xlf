@@ -30,6 +30,55 @@
             <trans-unit id="color-6">
                 <source>Tertiary color 3</source>
             </trans-unit>
+            <trans-unit id="field.background_color_class">
+                <source>Background Color</source>
+            </trans-unit>
+            <trans-unit id="field.background_image">
+                <source>Background Image</source>
+            </trans-unit>
+            <trans-unit id="field.background_image_options">
+                <source>Background Image Options</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.settings">
+                <source>Settings</source>
+            </trans-unit>
+             <trans-unit id="option.background_image.behaviour">
+                <source>Behaviour</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.behaviour.cover">
+                <source>Cover</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.behaviour.pattern">
+                <source>Pattern</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.parallax">
+                <source>Parallax</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.parallax.description">
+                <source>Enable Parallax effect</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.fade">
+                <source>Fade</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.fade.description">
+                <source>Enable Fade effect</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.filter">
+                <source>Filter</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.filter.none">
+                <source>None</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.filter.blur">
+                <source>Blur</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.filter.grayscale">
+                <source>Grayscale</source>
+            </trans-unit>
+            <trans-unit id="option.background_image.filter.sepia">
+                <source>Sepia</source>
+            </trans-unit>
+
         </body>
     </file>
 </xliff>
