@@ -6,7 +6,30 @@
             <authorEmail>nel@adm.ku.dk</authorEmail>
         </header>
         <body>
-
+            <trans-unit id="ucph_page_color_select">
+                <source>Row background color</source>
+            </trans-unit>
+            <trans-unit id="color-unset">
+                <source>None</source>
+            </trans-unit>
+            <trans-unit id="color-1">
+                <source>Primary color</source>
+            </trans-unit>
+            <trans-unit id="color-2">
+                <source>Secondary color 1</source>
+            </trans-unit>
+            <trans-unit id="color-3">
+                <source>Secondary color 2</source>
+            </trans-unit>
+            <trans-unit id="color-4">
+                <source>Tertiary color 1</source>
+            </trans-unit>
+            <trans-unit id="color-5">
+                <source>Tertiary color 2</source>
+            </trans-unit>
+            <trans-unit id="color-6">
+                <source>Tertiary color 3</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
