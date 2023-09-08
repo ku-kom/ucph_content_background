@@ -34,10 +34,13 @@
                 <source>Background Color</source>
             </trans-unit>
             <trans-unit id="field.background_image">
-                <source>Background Image</source>
+                <source>Background image</source>
+            </trans-unit>
+            <trans-unit id="add.background_image">
+                <source>Add background image</source>
             </trans-unit>
             <trans-unit id="field.background_image_options">
-                <source>Background Image Options</source>
+                <source>Background image options</source>
             </trans-unit>
             <trans-unit id="option.background_image.settings">
                 <source>Settings</source>
