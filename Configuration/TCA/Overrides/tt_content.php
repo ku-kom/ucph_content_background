@@ -92,6 +92,35 @@ call_user_func(function ($extKey ='ucph_content_background') {
                     [
                         'minitems' => 0,
                         'maxitems' => 1,
+                        'appearance' => [
+                            'elementBrowserType' => 'file',
+                            'elementBrowserAllowed' => 'jpg,jpeg,png,svg'
+                        ],
+                        'filter' => [
+                            0 => [
+                                'parameters' => [
+                                    'allowedFileExtensions' => 'jpg,jpeg,png,svg',
+                                ],
+                            ],
+                        ],
+                        'overrideChildTca' => [
+                            'columns' => [
+                                'uid_local' => [
+                                    'config' => [
+                                        'appearance' => [
+                                            'elementBrowserAllowed' => 'jpg,jpeg,png,svg',
+                                        ],
+                                    ],
+                                ],
+                            ],
+                            'types' => [
+                                \TYPO3\CMS\Core\Resource\File::FILETYPE_IMAGE => [
+                                    'showitem' => '
+                                        crop,
+                                    --palette--;;filePalette'
+                                ]
+                            ],
+                        ],
                     ],
                     $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext']
                 ),
