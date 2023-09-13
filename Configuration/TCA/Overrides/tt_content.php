@@ -27,6 +27,7 @@ call_user_func(function ($extKey ='ucph_content_background') {
                         'FIELD:CType:=:container_2_columns_left',
                         'FIELD:CType:=:container_3_columns',
                         'FIELD:CType:=:container_4_columns',
+                        'FIELD:CType:=:container_indent_columns',
                     ]
                  ],
                 'exclude' => true,
@@ -78,6 +79,7 @@ call_user_func(function ($extKey ='ucph_content_background') {
                         'FIELD:CType:=:container_2_columns_left',
                         'FIELD:CType:=:container_3_columns',
                         'FIELD:CType:=:container_4_columns',
+                        'FIELD:CType:=:container_indent_columns',
                     ],
                     'AND' => [
                         // If no background color is selected
@@ -106,6 +108,7 @@ call_user_func(function ($extKey ='ucph_content_background') {
                         'FIELD:CType:=:container_2_columns_left',
                         'FIELD:CType:=:container_3_columns',
                         'FIELD:CType:=:container_4_columns',
+                        'FIELD:CType:=:container_indent_columns',
                     ],
                     'AND' => [
                         // If no background color is selected
